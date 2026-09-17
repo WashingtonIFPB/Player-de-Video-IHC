@@ -377,10 +377,10 @@ function Core({
         style={
           playing
             ? {
-                width: compact ? 18 : 24,
-                height: compact ? 18 : 24,
-                background:
-                  "linear-gradient(90deg, var(--playing) 0 35%, transparent 35% 65%, var(--playing) 65%)",
+                width: compact ? 14 : 18,
+                height: compact ? 14 : 18,
+                borderRadius: "50%",
+                background: "var(--playing)",
                 filter: "drop-shadow(var(--glow-playing))",
               }
             : {
